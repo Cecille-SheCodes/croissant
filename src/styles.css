@@ -7,7 +7,7 @@ h4,
 p {
   text-align: center;
   color: rgb(170, 85, 6);
-  margin-top: 10px;
+  margin: 15px;
 }
 .navigation-links {
   display: flex;
@@ -16,6 +16,7 @@ p {
 }
 
 .navigation-links a {
+  display: flex;
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
@@ -23,7 +24,7 @@ p {
   text-transform: capitalize;
   color: rgb(170, 85, 6);
   font-weight: 500;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img {
@@ -32,6 +33,6 @@ img {
   width: 35%;
 }
 
-.email-link{
-  color:rgb(117, 152, 12)
+.email-link {
+  color: rgb(117, 152, 12);
 }
